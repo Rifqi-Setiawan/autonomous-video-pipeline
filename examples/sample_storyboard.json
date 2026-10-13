@@ -1,0 +1,29 @@
+{
+  "episode_id": "ep_01",
+  "title": "The Mysterious Cosmic Signal That Disappeared",
+  "description": "In 1977, astronomers detected a 72-second radio burst from deep space that was never heard again. What was the Wow! Signal? #Space #Mystery #Shorts",
+  "tags": ["space", "mystery", "science", "astronomy", "shorts"],
+  "thumbnail": {
+    "hook_text": "SINYAL 72 DETIK / DARI LUAR ANGKASA?!"
+  },
+  "scenes": [
+    {
+      "scene_id": 1,
+      "prompt": "Cinematic slow pull-back shot from a colossal radio telescope observatory standing isolated beneath an expanse of starry night sky. Atmospheric blue dusk illumination, 8K ultra-detailed photorealistic.",
+      "voiceover_text": "Tahun 1977, sebuah teleskop radio di Ohio menangkap gelombang aneh dari kedalaman galaksi.",
+      "estimated_duration_sec": 5.2
+    },
+    {
+      "scene_id": 2,
+      "prompt": "Close-up cinematic macro tracking shot of continuous computer printout paper feeding through a 1970s mainframe terminal printer, printing alphanumeric columns in dark room. Vintage cinematic realism, 8K.",
+      "voiceover_text": "Bukan derau biasa, melainkan lonjakan frekuensi radio murni yang sangat kuat.",
+      "estimated_duration_sec": 4.8
+    },
+    {
+      "scene_id": 3,
+      "prompt": "Extreme macro shot of an astronomer's trembling hand holding a red pen, circling the code '6EQUJ5' and writing 'Wow!' on the margin. Soft warm desk lamp lighting, 8K.",
+      "voiceover_text": "Astronom Jerry Ehman begitu terpana hingga menuliskan kata 'Wow!' dengan tinta merah di kertas hasil cetak itu.",
+      "estimated_duration_sec": 6.1
+    }
+  ]
+}

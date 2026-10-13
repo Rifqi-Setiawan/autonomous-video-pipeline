@@ -1,0 +1,38 @@
+[
+  {
+    "id": "account01",
+    "slot": 1,
+    "profile_path": "./browser_profiles/account01",
+    "status": "ACTIVE",
+    "generations_today": 0,
+    "max_daily_generations": 15,
+    "last_used_timestamp": 0
+  },
+  {
+    "id": "account02",
+    "slot": 2,
+    "profile_path": "./browser_profiles/account02",
+    "status": "ACTIVE",
+    "generations_today": 0,
+    "max_daily_generations": 15,
+    "last_used_timestamp": 0
+  },
+  {
+    "id": "account03",
+    "slot": 3,
+    "profile_path": "./browser_profiles/account03",
+    "status": "ACTIVE",
+    "generations_today": 0,
+    "max_daily_generations": 15,
+    "last_used_timestamp": 0
+  },
+  {
+    "id": "account04",
+    "slot": 4,
+    "profile_path": "./browser_profiles/account04",
+    "status": "ACTIVE",
+    "generations_today": 0,
+    "max_daily_generations": 15,
+    "last_used_timestamp": 0
+  }
+]

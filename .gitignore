@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Browser Automation & Profiles
+browser_profiles/
+user_data/
+*.session
+*.cookies
+cookies.json
+tokens/
+
+# Credentials, Secrets & OAuth Tokens
+*.key
+*.pem
+*.token
+*.p12
+*.crt
+client_secret*.json
+credentials.json
+youtube_token.json
+tiktok_credentials.json
+gemini_credentials.json
+gemini_vault.json
+gemini_keys.json
+accounts.json
+secrets/
+
+# Large Binary Files & Media Artifacts
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.flv
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.parquet
+*.zip
+*.tar.gz
+*.tar
+
+# Project Scratch & Output Directories
+output/
+clips/
+scratch/
+temp/
+temp_*/
+cache/
+logs/
+*.log
+
+# Operating System & IDE Artifacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

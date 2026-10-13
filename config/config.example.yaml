@@ -1,0 +1,49 @@
+# Autonomous Video Pipeline Configuration
+pipeline:
+  name: "Autonomous Video Pipeline"
+  version: "1.0.0"
+  target_format: "portrait_9_16" # 1080x1920 30fps CFR
+  
+paths:
+  output_dir: "./output"
+  clips_dir: "./clips"
+  archive_dir: "./archive"
+  fonts_dir: "./assets/fonts"
+  audio_dir: "./assets/audio"
+
+generator:
+  model: "gemini-3.8-flash"
+  thinking_depth: "medium"
+  aspect_ratio: "portrait" # 9:16 vertical
+  max_wait_seconds: 320
+  accounts_config: "./config/accounts.json"
+  profiles_dir: "./browser_profiles"
+
+studio:
+  audio:
+    bgm_volume: 1.80
+    ducking_ratio: 2.2
+    ducking_threshold: 0.08
+    attack_ms: 15
+    release_ms: 240
+    target_loudness_lufs: -14.0
+  subtitles:
+    font: "Bebas Neue"
+    font_size: 24
+    primary_color: "&H00FFFFFF"      # White
+    highlight_color: "&H0000E6FF"    # Vibrant Yellow (&HAABBGGRR)
+    outline_color: "&H00000000"      # Black
+    outline_width: 3.5
+    shadow_width: 2.0
+  thumbnails:
+    display_duration_seconds: 0.35   # Frame 0 Bake-in hook
+    font: "Anton"
+    max_text_width: 860
+
+publisher:
+  youtube:
+    category_id: "28" # Science & Technology
+    privacy_status: "public"
+    token_file: "./config/youtube_token.json"
+  tiktok:
+    session_file: "./config/tiktok_credentials.json"
